@@ -17,7 +17,7 @@ Zenin Market is a portfolio project that models how a real supermarket **deli co
 - A label with a **barcode that carries the price**, so the cashier scans it later and the register does not need the weight.
 
 This repository is the **REST API**. The Angular app lives in
-[`zenin-market-web`](https://github.com/TU-USUARIO/zenin-market-web).
+[`zenin-market-web`](https://github.com/Leonix64/zenin-market-web).
 
 > ⚠️ Everything here is fictional: names, brands, prices, logos and addresses.
 
@@ -122,7 +122,7 @@ docs/             project plan and documentation
 
 ## Documentation
 
-- [Project plan](docs/project-plan.pdf)
+- [Project plan]()
 
 ## License
 
