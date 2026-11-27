@@ -1,0 +1,28 @@
+{
+  "name": "zenin-market-api",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "format": "prettier --write \"src/**/*.ts\" \"*.{js,json}\"",
+    "format:check": "prettier --check \"src/**/*.ts\" \"*.{js,json}\"",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "packageManager": "npm@11.19.1",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^24.19.4",
+    "eslint": "^10.15.0",
+    "prettier": "^3.10.1",
+    "tsx": "^4.23.15",
+    "typescript": "~6.0.3",
+    "typescript-eslint": "^8.74.0",
+    "vitest": "^5.1.2"
+  }
+}
